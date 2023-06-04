@@ -451,6 +451,10 @@ span{
     font-size:1.8rem;
   }
 
+  .essay{
+    background-color: var(--second-bg-color);
+  }
+
 
   /* projects section */
   #projects{
@@ -503,6 +507,7 @@ span{
     justify-content:center;
     flex-direction: column;
     border-radius: 50px;
+    color: black;
 }
 
 #projects .project-info h1{
@@ -522,8 +527,9 @@ span{
 }
 
 #projects .project-img{
-    flex-basis: 50%;
-    height:100px;
+    
+    height:500px;
+    width: 500px;
     overflow: hidden;
     position:relative;
     border-radius: 100px;
@@ -537,7 +543,7 @@ span{
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.3;
 }
 
 #projects .project-img img{
