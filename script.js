@@ -229,4 +229,108 @@ var swiper = new Swiper(".slide-content", {
       &nbsp;</p>`;
 
 
-  
+  const essay = document.getElementById("essayStuff");
+  essay.innerHTML = `
+  <p class="essayContent">The South African Social Security Agency (SASSA) is a government agency tasked with providing
+      social security benefits to eligible South African citizens. One of the ways SASSA provides access to
+      information about social grants is through its website, sassa.gov.za. However, the site's user
+      interface (UI) and user experience (UX) fall short of modern standards, making it difficult for users to
+      easily navigate and access the information they need. In this essay, we will explore the issues with
+      the UI and UX of sassa.gov.za and the ethical concerns arising from the site's design. 
+      <br>
+      <br>
+      Firstly, I am going to critically analyse the User Interface (UI) by firstly starting of with the overall
+      design of the page, it is decently designed visually but the colour combination of yellow and white is
+      not as pleasant, and the colour code is probably used in this manner to match the colours of the
+      leading party, with this colour code of yellow and white it is not a good look on the eyes it looks like
+      an old design and there is also a large amount of white space around the contents of the website as
+      if the website was not properly optimised for desktop use as there is too much margin being used on
+      the desktop version than the mobile version of the website, on the mobile version of the website the
+      spacings and sizes of the images used are appropriate as if initially the website was made to be
+      viewed on mobile devices than on a desktop which is not a bad feature of the website as the use of
+      mobile devices in South African outweighs the use of desktops as mobile devices are more
+      affordable than the desktops and the people that make use of the South African Social Security
+      Agency do not have access to desktop and depend of grant from the government to be able to live
+      and survive on a daily basis. The design of the navigation tab is not as good as one would have
+      wanted it to be as the Nav bar does not follow you and you end up having to scroll back up the page
+      in order to access the navigation tab which is annoying an unpleasant would have much more sense
+      and made it easier if no matter where you are in the website you easily navigate around the website
+      without having to scroll back up to where is place thus having a fixed placed navigation tab would be
+      of a great User Experience (UX) design and make it much more enjoyable to use the website and
+      much less of a hustle to go around the website, the website that I have made makes use the
+      navigation bar that is always visible to the user no matter the circumstances and I believe this is
+      necessary to have in every website that the nav bar is always there for the user. The only navigation
+      bar that is always visible is the live chat which is poorly placed on the right hand side of the website
+      and seems out of place making it look extremely bad which could have been substituted for a popup
+      on the bottom right of the website with a small/medium sized telephone sign labelled live chat
+      button to better signal to user that there is a chat function or even better a live chat that floating on
+      the bottom right hand side of the page where the user just goes and types their issues and are able
+      to receive help as soon as possible.
+      <br>
+      <br>
+      The way the website is structured with the abundance of white spaces on the sides of the website, I
+      believe this causes the website to be more clustered together as there is not enough space making
+      the images they use be very tiny and of low quality resulting longer in web pages than necessary
+      with very small amounts of text to label each of the images used thus affecting the appearance of
+      the website overall and making it look like a very sub-average website. On the topic about bad doors
+      the mobile version of the website definitely has various bad door designs as the drop down
+      navigation bar when clicked when one clicks on this the live chat feature of the website covers other
+      clickable drop down options requiring the user to strategically scroll on the website in order for the
+      website live chat feature doesn’t cover the additional drop down feature which will cause frustration
+      while in use of the website, this frustration is also continued as you scroll down the website and get
+      onto the section whereby there is a social media section with the twitter pages of the SASSA, once
+      you get to this section and you try and scroll and it so happens that when you want to go futher
+      down the pages you will notice the social media page is the once that is moving thus requiring you to
+      look for some small parts of the website that do not include the social media place in order to scroll
+      futher down the website, which is bad design which this could be avoided by requiring the user to
+      use two fingers in order to scroll through the social media pages the offer on the website.
+      <br>
+      <br>
+      In terms of use of icons appropriately on the website they done a good job in terms of use of icons
+      and none of the icons pressed does a particular function that seems odd than expected, thus
+      following the steps by the basic principles of user interface design[1], this is important to make sure
+      it is followed as the website will be visited by users that are not always active on the world wide web
+      and if they can associate some of the icons used on the website to the icons they have used before
+      on other applications like Whatsapp, Facebook or Twitter the better it will be for them as they do
+      not have to struggle to get around the website as much.
+      <br>
+      <br>
+      The website overall does not totally violate ethics of user as the website does not have any dark
+      patterns to try and lure the user or to try force and error from the user that will cost them
+      financially, but I have noticed that the website has a tendency to get the user irritated from using
+      the website as the website doesn’t follow the principals of design fully that the website should have
+      at maximum 3 clicks to get to a point the user wants to get too but instead the website will send you
+      from one page to another even as far as you click along thinking you getting somewhere but end up
+      being redirected to a PDF that that has more info as to how to get what you want done, which is not
+      right ethically as already the people that use this website are frustrated by their living conditions and
+      most have not had decent education to use the website yet there is an unending linking every click
+      that I myself got easily annoyed by trying to find ways to apply for grants, this makes the website not
+      properly made for its target audience and users and somehow fail the people who depend on SASSA.
+      The final ethical issue is that the website is targeted at the black majority of the country yet the
+      website is run using English and doesn’t cater for user that speak their home languages assuming
+      everyone is familiar with English and understand English which is totally incorrect as statistics show
+      that English is 6th common language in South Africa with 8% of the population using it to
+      communicate at home[2], thus making people that cannot read and understand English not be able
+      to use the website just because they lack knowledge in the English language.
+      <br>
+      <br>
+      In conclusion, the website of the South African Social Security Agency (SASSA) has issues with its user
+      interface (UI) and user experience (UX) that hinder easy navigation and access to information for
+      users. The website's overall design is visually decent, but the yellow and white colour combination is
+      not pleasing, and the abundant white space on the desktop version makes it look clustered. The
+      navigation tab is poorly designed, and the live chat function is poorly placed, making it look out of
+      place. The mobile version of the website has bad door designs that frustrate users when trying to
+      access different features. However, the use of icons is appropriate and easy for users to associate
+      with other applications. The website does not violate ethical principles, but its poor design may
+      irritate users. Overall, the SASSA website needs a redesign to improve its UI and UX to provide better
+      access to the social security information for South African citizens.
+      <br>
+      <br>
+      Reference
+      <br>
+      <br>
+      [1] UXPin (2023) The basic principles of User Interface Design, Studio by UXPin. Available
+      at: https://www.uxpin.com/studio/blog/ui-design-principles/ (Accessed: April 30, 2023).
+      [2] Nkanjeni, U. (2019) Only 8% of South Africans speak English at home - report,
+      TimesLIVE. TimesLIVE. Available at: https://www.timeslive.co.za/news/south-africa/2019-06-
+      05-only-8-of-south-africans-speak-english-at-home-report/ (Accessed: April 30, 2023).</p>`;
