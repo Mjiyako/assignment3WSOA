@@ -153,6 +153,8 @@ span{
     background: var(--bg-color);
 }
 
+
+
 .heading {
     text-align: center;
     font-size: 4.5rem;
@@ -707,7 +709,7 @@ span{
         }
 
         .home-img img{
-            width: 400px;
+            width: 450px;
             height:auto;
             margin-top: 4rem;
             overflow-x: hidden;
