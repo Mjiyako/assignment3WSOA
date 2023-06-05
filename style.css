@@ -455,6 +455,10 @@ span{
     background-color: var(--second-bg-color);
   }
 
+  #blogs p{
+    font-size:1.15rem;
+  }
+
 
   /* projects section */
   #projects{
