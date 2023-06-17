@@ -17,7 +17,26 @@ var swiper = new Swiper(".slide-content", {
 
   });
 
-  function myFunction() {
+  const week1 = document.querySelector('#button0');
+  const week2 = document.querySelector('#button1');
+  const week3 = document.querySelector('#button2');
+  const week4 = document.querySelector('#button3');
+  const week7 = document.querySelector('#button4');
+  const week8 = document.querySelector('#button5');
+  const week9 = document.querySelector('#button6');
+  const week10 = document.querySelector('#button7');
+  const week13 = document.querySelector('#button8');
+  week1.addEventListener("click",() => textReveal());
+  week2.addEventListener("click",() => textReveal1());
+  week3.addEventListener("click",() => textReveal2());
+  week4.addEventListener("click",() => textReveal3());
+  week7.addEventListener("click",() => textReveal6());
+  week8.addEventListener("click",() => textReveal7());
+  week9.addEventListener("click",() => textReveal8());
+  week10.addEventListener("click",() => textReveal9());
+  week13.addEventListener("click",() => textReveal12());
+
+  function textReveal() {
     var x = document.getElementById("readmoreText");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -26,7 +45,7 @@ var swiper = new Swiper(".slide-content", {
     }
   }
 
-  function myFunction1() {
+  function textReveal1() {
     var x = document.getElementById("readmoreText1");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -34,7 +53,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction2() {
+  function textReveal2() {
     var x = document.getElementById("readmoreText2");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -42,7 +61,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction3() {
+  function textReveal3() {
     var x = document.getElementById("readmoreText3");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -50,7 +69,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction4() {
+  function textReveal4() {
     var x = document.getElementById("readmoreText4");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -58,7 +77,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction5() {
+  function textReveal5() {
     var x = document.getElementById("readmoreText5");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -66,7 +85,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction6() {
+  function textReveal6() {
     var x = document.getElementById("readmoreText6");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -74,7 +93,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction7() {
+  function textReveal7() {
     var x = document.getElementById("readmoreText7");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -82,7 +101,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction8() {
+  function textReveal8() {
     var x = document.getElementById("readmoreText8");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -90,7 +109,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction9() {
+  function textReveal9() {
     var x = document.getElementById("readmoreText9");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -98,7 +117,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction10() {
+  function textReveal10() {
     var x = document.getElementById("readmoreText10");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -106,7 +125,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction11() {
+  function textReveal11() {
     var x = document.getElementById("readmoreText11");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -114,7 +133,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
-  function myFunction12() {
+  function textReveal12() {
     var x = document.getElementById("readmoreText12");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -122,6 +141,7 @@ var swiper = new Swiper(".slide-content", {
       x.style.display = "none";
     }
   }
+  
 
 
   const blog = document.getElementById("readmoreText");
@@ -236,10 +256,11 @@ var swiper = new Swiper(".slide-content", {
       information about social grants is through its website, sassa.gov.za. However, the site's user
       interface (UI) and user experience (UX) fall short of modern standards, making it difficult for users to
       easily navigate and access the information they need. In this essay, we will explore the issues with
-      the UI and UX of sassa.gov.za and the ethical concerns arising from the site's design. 
-      <br>
-      <br>
-      Firstly, I am going to critically analyse the User Interface (UI) by firstly starting of with the overall
+      the UI and UX of sassa.gov.za and the ethical concerns arising from the site's design.</p> 
+
+      <p class="essayContent">&nbsp</p>
+
+      <p class="essayContent">Firstly, I am going to critically analyse the User Interface (UI) by firstly starting of with the overall
       design of the page, it is decently designed visually but the colour combination of yellow and white is
       not as pleasant, and the colour code is probably used in this manner to match the colours of the
       leading party, with this colour code of yellow and white it is not a good look on the eyes it looks like
@@ -265,10 +286,12 @@ var swiper = new Swiper(".slide-content", {
       on the bottom right of the website with a small/medium sized telephone sign labelled live chat
       button to better signal to user that there is a chat function or even better a live chat that floating on
       the bottom right hand side of the page where the user just goes and types their issues and are able
-      to receive help as soon as possible.
-      <br>
-      <br>
-      The way the website is structured with the abundance of white spaces on the sides of the website, I
+      to receive help as soon as possible.</p>
+
+      <p class="essayContent">&nbsp</p>
+
+
+      <p class="essayContent">The way the website is structured with the abundance of white spaces on the sides of the website, I
       believe this causes the website to be more clustered together as there is not enough space making
       the images they use be very tiny and of low quality resulting longer in web pages than necessary
       with very small amounts of text to label each of the images used thus affecting the appearance of
@@ -283,19 +306,23 @@ var swiper = new Swiper(".slide-content", {
       down the pages you will notice the social media page is the once that is moving thus requiring you to
       look for some small parts of the website that do not include the social media place in order to scroll
       futher down the website, which is bad design which this could be avoided by requiring the user to
-      use two fingers in order to scroll through the social media pages the offer on the website.
-      <br>
-      <br>
-      In terms of use of icons appropriately on the website they done a good job in terms of use of icons
+      use two fingers in order to scroll through the social media pages the offer on the website.</p>
+
+      <p class="essayContent">&nbsp</p>
+
+
+      <p class="essayContent">In terms of use of icons appropriately on the website they done a good job in terms of use of icons
       and none of the icons pressed does a particular function that seems odd than expected, thus
       following the steps by the basic principles of user interface design[1], this is important to make sure
       it is followed as the website will be visited by users that are not always active on the world wide web
       and if they can associate some of the icons used on the website to the icons they have used before
       on other applications like Whatsapp, Facebook or Twitter the better it will be for them as they do
-      not have to struggle to get around the website as much.
-      <br>
-      <br>
-      The website overall does not totally violate ethics of user as the website does not have any dark
+      not have to struggle to get around the website as much.</p>
+
+      <p class="essayContent">&nbsp</p>
+
+
+      <p class="essayContent">The website overall does not totally violate ethics of user as the website does not have any dark
       patterns to try and lure the user or to try force and error from the user that will cost them
       financially, but I have noticed that the website has a tendency to get the user irritated from using
       the website as the website doesn’t follow the principals of design fully that the website should have
@@ -311,10 +338,12 @@ var swiper = new Swiper(".slide-content", {
       everyone is familiar with English and understand English which is totally incorrect as statistics show
       that English is 6th common language in South Africa with 8% of the population using it to
       communicate at home[2], thus making people that cannot read and understand English not be able
-      to use the website just because they lack knowledge in the English language.
-      <br>
-      <br>
-      In conclusion, the website of the South African Social Security Agency (SASSA) has issues with its user
+      to use the website just because they lack knowledge in the English language.</p>
+
+      <p class="essayContent">&nbsp</p>
+
+
+      <p class="essayContent">In conclusion, the website of the South African Social Security Agency (SASSA) has issues with its user
       interface (UI) and user experience (UX) that hinder easy navigation and access to information for
       users. The website's overall design is visually decent, but the yellow and white colour combination is
       not pleasing, and the abundant white space on the desktop version makes it look clustered. The
@@ -323,14 +352,77 @@ var swiper = new Swiper(".slide-content", {
       access different features. However, the use of icons is appropriate and easy for users to associate
       with other applications. The website does not violate ethical principles, but its poor design may
       irritate users. Overall, the SASSA website needs a redesign to improve its UI and UX to provide better
-      access to the social security information for South African citizens.
-      <br>
-      <br>
-      Reference
-      <br>
-      <br>
-      [1] UXPin (2023) The basic principles of User Interface Design, Studio by UXPin. Available
-      at: https://www.uxpin.com/studio/blog/ui-design-principles/ (Accessed: April 30, 2023).
-      [2] Nkanjeni, U. (2019) Only 8% of South Africans speak English at home - report,
+      access to the social security information for South African citizens.</p>
+
+      <p class="essayContent">&nbsp</p>
+
+
+      <p class="essayContent">References</p>
+
+      <p class="essayContent">&nbsp</p>
+
+
+      <p class="essayContent">[1] UXPin (2023) The basic principles of User Interface Design, Studio by UXPin. Available
+      at: https://www.uxpin.com/studio/blog/ui-design-principles/ (Accessed: April 30, 2023).</p>
+
+      <p class="essayContent">&nbsp</p>
+
+      <p class="essayContent"> [2] Nkanjeni, U. (2019) Only 8% of South Africans speak English at home - report,
       TimesLIVE. TimesLIVE. Available at: https://www.timeslive.co.za/news/south-africa/2019-06-
       05-only-8-of-south-africans-speak-english-at-home-report/ (Accessed: April 30, 2023).</p>`;
+
+      const essay1 = document.getElementById("essayStuff1");
+      essay1.innerHTML = `<p class="essayContent">The statement by the CAIS “Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.” Raises concerns about the use of algorithmic culture and AI in modern-day society, and there are efforts made to try and contain the growth of these aspects and try by all means to have control over these tools as they are expanding faster than we are able to understand and comprehend how they work. But are AI’s and the algorithmic culture something we should be concerned about? </p>
+
+      <p class="essayContent">&nbsp</p>
+     
+      <p class="essayContent">There have been several concerns about AI and the algorithmic culture that they pose a threat to society and put our lives in danger, the use of AI was thought to be used in a manner where small tasks that are simple and repetitive tasks [1] but have been improving over time that they far exceeding the expectations that were placed on them. Taking a looking at the definition of Internet Ethics being that, this is the analysis of the role the Internet plays in the development of the good life, which is the type of life we want for ourselves with respect to whether the Internet is playing a constructive role in our lives or not (Santa Clara University, 2018).</p>
+
+      <p class="essayContent">&nbsp</p>
+     
+      <p class="essayContent">As stated above, there have been improvements on AI’s and Algorithms making them reach territories none of us have imagined and having to be able to perform unimaginable tasks, making them highly capable tools that even businesses have started to use these tools abilities. But this is where the ethical concerns arise from as now companies have begun replacing workers in exchange for the use AI’s for tasks that humans usually perform, a simple example of this case where there are signs of AI’s slowly replacing human beings is calls to big companies, when one places a call to a tech giant (Apple) to make enquires instead of the old technology of being asked to press certain buttons on a call to be directed to the right people to assist you, there has been a change to this process as now you have direct conversation with the AI as is gathers information from you as you communicate with it and can respond to you as you give it information on what you are trying to achieve as you place the call. This task could have easily been done by a human being but instead is being done by an AI which replaced a human being in this instance, causing unemployment. This is linked very closely with the statement placed by CAIS as they fear extinction from AI which does not necessarily mean extinction in the form of death but can also mean extinction in the form of human beings no longer being part of society and having control over what and how things are created which make no ethical sense as now AI will be in charge of our daily lives, yet these tools can be created to work in a manner that benefits a certain group of people.</p>
+
+      <p class="essayContent">&nbsp</p>
+
+      <p class="essayContent">There have been calls by the fathers of this technology and expects in the field to try to slow down and bring it to a halt and have the AI being regulated and monitored, which makes absolutely no sense as to why the makers of these tools would want to have regulations and have so many concerns over their own technology they have made. It turns out that these tools are improving themselves without the creators being able to control the direction in which the AI is heading. This makes sense as AI is left with the duty of making decisions that are important and not knowing how initially they were made, their decisions could be biased in favour of certain stereotypes, views, and in some instances even worse being racist, like for example the google “gorillas” where it would label black people as gorillas. It cannot be that we can have these algorithms and AI’s create content faster than we can blink teaching future generations false information as AI will now make this true.</p>
+
+      <p class="essayContent">&nbsp</p>
+
+      <p class="essayContent">This brings into light the creation of fake citations (Welborn, 2023) by AI, and as stated in one of our lectures in the Digital Arts building by one of my colleagues that AI is falsely crediting authors for work and words they did not make. This is unethical as this can tarnish an author’s name as people will think one of the authors they know wrote has some type of view and understanding which they don’t as AI is falsely crediting them to work they did not make in order to gain credibility using someone who is high profiled. This can potentially end an author’s career if AI is thoroughly regulated and is fully understood and is allowed to continue its usage across all platforms without any quality assurance thus saying some of the bad actions that put human lives and careers in danger at risk, now the question that would be important is that which people will it choose to be unfair to? And which people the AI and algorithms will ruin their lives? Will it be biased in whom it chooses to ruin? This is not unreasonable to think about as we already have cases of simple algorithms already having bias and unfairness toward certain types of people. </p>
+
+      <p class="essayContent">&nbsp</p>
+
+      <p class="essayContent">This further advocate for the statement made by the CAIS that trying to reduce the risks of being extinct from AI and algorithms is necessary as they possess evil in them, which badly represents people and chooses who it properly treats, instead of being fair and acting in an appropriate manner for every situation without having to choose. One way in which AI and algorithms used can be regulated is to educate each other and ourselves on their social and ethical associations to decide on what regulations should be implemented and also decide what role the technology is going to play, I believe this will solve most problems and concerns that are currently at hand with AI and algorithms in order to keep track and be aware of what the AI and algorithms are doing, unlike some current algorithms which have multiple functionalities and can perform, improve and learn overtime themselves without being programmed to perform a certain task and we do not know what exactly it is learning and how it will use this information learned.</p>
+
+      <p class="essayContent">&nbsp</p>
+
+      <p class="essayContent">Finally, the fast growth of artificial intelligence and algorithmic culture has sparked worries about their influence on society. While these technologies have demonstrated impressive capabilities and potential advantages, they also raise substantial ethical concerns. The growing use of artificial intelligence to replace human labour, for example, raises concerns about job loss and loss of control over essential areas of our everyday life. Furthermore, AI's ability to make judgments and develop on its own without complete comprehension by its designers raises concerns about prejudice, injustice, and possible harm to people and society as a whole.</>
+
+      <p class="essayContent">&nbsp</p>
+
+      <p class="essayContent">The CAIS's proposal to prioritize AI risk mitigation alongside other societal-scale risks indicates an awareness that unrestrained AI growth and deployment might result in unforeseen effects, including the marginalization of humans in decision-making processes. Instances of AI-generated citations and biased algorithms highlight the importance of regulation and quality assurance in ensuring fairness and accountability.</>
+
+      <p class="essayContent">&nbsp</p>
+
+      <p class="essayContent">To address these issues, society must continue to educate and discuss the social and ethical consequences of AI and algorithms. We can jointly set acceptable restrictions and govern the role that technology should play by understanding their associations and influence. This proactive strategy will assist in mitigating the dangers connected with AI and algorithms, allowing us to capitalize on their potential while ensuring they match our values and serve the general good.</>
+
+      <p class="essayContent">&nbsp</p>
+
+      <p class="essayContent">References</p>
+
+      <p class="essayContent">&nbsp</p>
+     
+      <p class="essayContent">
+      <p class="essayContent"> [1] Pazzanese, C. (2020). Ethical concerns mount as AI takes bigger decision-making role. [online] Harvard Gazette. Available at: https://news.harvard.edu/gazette/story/2020/10/ethical-concerns-mount-as-ai-takes-bigger-decision-making-role/.</p>
+
+      <p class="essayContent">&nbsp</p>
+      
+      <p class="essayContent"> [2] Santa Clara University (2018). What is Internet Ethics? - Markkula Center for Applied Ethics. [online] Scu.edu. Available at: https://www.scu.edu/ethics/focus-areas/internet-ethics/resources/what-is-internet-ethics/.</p>
+      
+      <p class="essayContent">&nbsp</p>
+      
+      <p class="essayContent"> [3] Welborn, A. (2023). ChatGPT and Fake Citations. [online] Duke University Libraries Blogs. Available at: https://blogs.library.duke.edu/blog/2023/03/09/chatgpt-and-fake-citations/.</p>
+      
+      <p class="essayContent">&nbsp</p>
+      
+      <p class="essayContent"> [4] www.safe.ai. (n.d.). Statement on AI Risk | CAIS. [online] Available at: https://www.safe.ai/statement-on-ai-risk#open-letter.</p>`;
